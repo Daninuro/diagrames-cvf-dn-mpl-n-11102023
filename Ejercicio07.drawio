@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-16T17:36:55.997Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="PeFxyPQDbpsdZhYIAELm" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-16T17:38:59.787Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="C0jnmaAnpSOdqAmkNueS" version="22.0.4" type="github">
   <diagram name="Pàgina-1" id="SuhlOd4oy2-5l4MS3tso">
-    <mxGraphModel dx="1064" dy="1408" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1774" dy="2124" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -159,7 +159,7 @@
           <mxGeometry y="146" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="dfgesfgbSkPz70xL1TR2-12" value="Tiene" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
-          <mxGeometry x="140" y="295.39" width="120" height="60" as="geometry" />
+          <mxGeometry x="140" y="280.39" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="dfgesfgbSkPz70xL1TR2-13" value="Genera" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
           <mxGeometry x="390" y="506.39" width="120" height="60" as="geometry" />
@@ -179,9 +179,9 @@
             <mxPoint x="510" y="220" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dfgesfgbSkPz70xL1TR2-19" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" target="dfgesfgbSkPz70xL1TR2-12" edge="1" source="dfgesfgbSkPz70xL1TR2-27">
+        <mxCell id="dfgesfgbSkPz70xL1TR2-19" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="dfgesfgbSkPz70xL1TR2-12" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="200" y="211" as="sourcePoint" />
+            <mxPoint x="203" y="231" as="sourcePoint" />
             <mxPoint x="540" y="-9.610000000000014" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -245,7 +245,7 @@
         <mxCell id="dfgesfgbSkPz70xL1TR2-54" value="1:N" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-130" y="65" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="4xWT1J-QJqjD6c4jqSJS-1" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;Departamento(&lt;u style=&quot;font-weight: bold;&quot;&gt;ID_departamento, &lt;/u&gt;coordenador)&lt;br&gt;Empleado(&lt;b&gt;&amp;nbsp;ID_trabajador,&amp;nbsp;&lt;/b&gt;&lt;u style=&quot;&quot;&gt;ID_Departamento&lt;b&gt;,&lt;/b&gt;&lt;/u&gt;&lt;b&gt;&amp;nbsp;&lt;/b&gt;&lt;u&gt;ID_contrato,&lt;/u&gt;&amp;nbsp;num_ss, DNI, nombre, dpellidos, direccion, telefono)&lt;br&gt;Contrato(&lt;u style=&quot;font-weight: bold;&quot;&gt;ID_contrato,&lt;/u&gt;&lt;span style=&quot;font-weight: bold;&quot;&gt;&amp;nbsp;&lt;/span&gt;fecha_inicio, fecha_final,&amp;nbsp;&lt;br&gt;&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="4xWT1J-QJqjD6c4jqSJS-1" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;Departamento(&lt;u style=&quot;font-weight: bold;&quot;&gt;ID_departamento, &lt;/u&gt;coordenador)&lt;br&gt;Empleado(&lt;b&gt;&amp;nbsp;ID_trabajador,&amp;nbsp;&lt;/b&gt;&lt;u style=&quot;&quot;&gt;ID_Departamento&lt;b&gt;,&lt;/b&gt;&lt;/u&gt;&lt;b&gt;&amp;nbsp;&lt;/b&gt;&lt;u&gt;ID_contrato,&lt;/u&gt;&amp;nbsp;num_ss, DNI, nombre, dpellidos, direccion, telefono)&lt;br&gt;Contrato(&lt;u style=&quot;font-weight: bold;&quot;&gt;ID_contrato,&lt;/u&gt;&lt;span style=&quot;font-weight: bold;&quot;&gt;&amp;nbsp;&lt;/span&gt;fecha_inicio, fecha_final)&lt;br&gt;Nomina(&lt;b&gt;&lt;u&gt;ID_nomina,&lt;/u&gt;&amp;nbsp;&lt;/b&gt;salario)&lt;br&gt;&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-670" y="150" width="410" height="90" as="geometry" />
         </mxCell>
         <mxCell id="4xWT1J-QJqjD6c4jqSJS-10" value="0,n" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
