@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-17T21:25:50.797Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="tD9jc1sYtx8vfF7Kmqp0" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-17T21:39:44.295Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="alBYMdqnIM4xiwo8PYYj" version="22.0.4" type="github">
   <diagram name="Página-1" id="Niy5DUo88fOq7ViBBJYX">
     <mxGraphModel dx="1434" dy="3128" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -433,7 +433,7 @@
           <mxGeometry x="460" y="-660" width="40" height="30" as="geometry" />
         </mxCell>
         <mxCell id="VrAu3rRNiWMAM-8Ou0bO-2" value="&lt;p style=&quot;text-align: justify; line-height: 180%; font-size: 15px;&quot;&gt;Usuario (&lt;u&gt;id_usuario&lt;/u&gt;, contrasena, nombre, apellidos, direccion, telefono, foto, email, esCelebridad)&lt;/p&gt;&lt;p style=&quot;text-align: justify; line-height: 180%; font-size: 15px;&quot;&gt;Celebridad(id_celebridad, contrasena, nombre, apellidos, foto, id_usuario(FK))&lt;/p&gt;&lt;p style=&quot;text-align: justify; line-height: 180%; font-size: 15px;&quot;&gt;Contacto(telefono, descripcion)&lt;/p&gt;&lt;p style=&quot;text-align: justify; line-height: 180%; font-size: 15px;&quot;&gt;Tiene(id_usuario(FK), telefono(FK))&lt;/p&gt;&lt;p style=&quot;text-align: justify; line-height: 180%; font-size: 15px;&quot;&gt;Grupo(nombre)&lt;/p&gt;&lt;p style=&quot;text-align: justify; line-height: 180%; font-size: 15px;&quot;&gt;Organiza(telefono(FK), nombre(FK))&lt;/p&gt;&lt;p style=&quot;text-align: justify; line-height: 180%; font-size: 15px;&quot;&gt;Comentario(usuario, texto, imagen)&lt;/p&gt;&lt;p style=&quot;text-align: justify; line-height: 180%; font-size: 15px;&quot;&gt;Publica(id_usuario(FK), usuario(FK))&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="800" y="-1160" width="700" height="320" as="geometry" />
+          <mxGeometry x="800" y="-1169" width="700" height="320" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
