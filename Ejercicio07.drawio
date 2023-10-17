@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2023-10-16T17:44:03.265Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="ezNsqiT8x0azAeQ2PX7F" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-17T13:07:44.045Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="qOZpN9Zl-D2vuMhJflyU" version="22.0.4" type="github">
   <diagram name="Pàgina-1" id="SuhlOd4oy2-5l4MS3tso">
-    <mxGraphModel dx="2977" dy="2059" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1695" dy="2044" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="dIsOg4A2e7Uvw2vJgA-Q-1" value="Empleado" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="120" y="-48" width="160" height="280" as="geometry" />
+          <mxGeometry x="130" y="-53.61" width="160" height="280" as="geometry" />
         </mxCell>
         <mxCell id="dIsOg4A2e7Uvw2vJgA-Q-5" value="" style="shape=table;startSize=0;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=0;align=center;resizeLast=1;strokeColor=none;fillColor=none;collapsible=0;" parent="dIsOg4A2e7Uvw2vJgA-Q-1" vertex="1">
           <mxGeometry y="26" width="160" height="74" as="geometry" />
@@ -184,9 +184,9 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dfgesfgbSkPz70xL1TR2-19" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="dfgesfgbSkPz70xL1TR2-12" edge="1">
+        <mxCell id="dfgesfgbSkPz70xL1TR2-19" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.452;exitY=1.033;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" target="dfgesfgbSkPz70xL1TR2-12" edge="1" source="dIsOg4A2e7Uvw2vJgA-Q-12">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="203" y="231" as="sourcePoint" />
+            <mxPoint x="200" y="230" as="sourcePoint" />
             <mxPoint x="540" y="-9.610000000000014" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -250,8 +250,8 @@
         <mxCell id="dfgesfgbSkPz70xL1TR2-54" value="1:N" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-130" y="65" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="4xWT1J-QJqjD6c4jqSJS-1" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Departamento(&lt;u style=&quot;font-weight: bold;&quot;&gt;ID_departamento,&lt;/u&gt;&lt;span style=&quot;font-weight: bold;&quot;&gt;&amp;nbsp;I&lt;/span&gt;&lt;u style=&quot;&quot;&gt;&lt;span style=&quot;font-weight: bold;&quot;&gt;D_&lt;/span&gt;coordenador&lt;/u&gt;, nombre_departamento )&lt;br&gt;Empleado(&lt;b style=&quot;&quot;&gt;&amp;nbsp;ID_trabajador,&amp;nbsp;&lt;/b&gt;&lt;u style=&quot;&quot;&gt;ID_Departamento&lt;b&gt;,&lt;/b&gt;&lt;/u&gt;&lt;b style=&quot;&quot;&gt;&amp;nbsp;&lt;/b&gt;&lt;u style=&quot;&quot;&gt;ID_Responsable,&lt;/u&gt;&amp;nbsp;ID_contratom,&amp;nbsp;num_ss, DNI, nombre, dpellidos, direccion, telefono)&lt;br&gt;Contrato(&lt;u style=&quot;font-weight: bold;&quot;&gt;ID_contrato,&lt;/u&gt;&lt;span style=&quot;font-weight: bold;&quot;&gt;&amp;nbsp;&lt;/span&gt;fecha_inicio, fecha_final)&lt;br&gt;Nomina(&lt;b style=&quot;&quot;&gt;&lt;u&gt;ID_nomina,&lt;/u&gt;&amp;nbsp;&lt;/b&gt;salario)&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-670" y="150" width="690" height="350" as="geometry" />
+        <mxCell id="4xWT1J-QJqjD6c4jqSJS-1" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Empleado(&lt;b style=&quot;&quot;&gt;&amp;nbsp;ID_trabajador,&amp;nbsp;&lt;/b&gt;&lt;u style=&quot;&quot;&gt;ID_Departamento&lt;b&gt;,&lt;/b&gt;&lt;/u&gt;&lt;b style=&quot;&quot;&gt;&amp;nbsp;&lt;/b&gt;&lt;u style=&quot;&quot;&gt;ID_Responsable,&lt;/u&gt;&amp;nbsp;ID_contratom,&amp;nbsp;num_ss, DNI, nombre, dpellidos, direccion, telefono)&lt;br&gt;Departamento(&lt;u style=&quot;border-color: var(--border-color); font-weight: bold;&quot;&gt;ID_departamento,&lt;/u&gt;&amp;nbsp;I&lt;u style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;border-color: var(--border-color); font-weight: bold;&quot;&gt;D_&lt;/span&gt;coordenador&lt;/u&gt;, nombre_departamento )&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Contrato(&lt;u style=&quot;font-weight: bold;&quot;&gt;ID_contrato,&lt;/u&gt;&lt;span style=&quot;font-weight: bold;&quot;&gt;&amp;nbsp;&lt;/span&gt;fecha_inicio, fecha_final)&lt;br&gt;Nomina(&lt;b style=&quot;&quot;&gt;&lt;u&gt;ID_nomina,&lt;/u&gt;&amp;nbsp;&lt;/b&gt;salario)&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-760" y="95" width="660" height="460" as="geometry" />
         </mxCell>
         <mxCell id="4xWT1J-QJqjD6c4jqSJS-10" value="0,n" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="50" y="93" width="60" height="30" as="geometry" />
