@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-19T14:15:53.278Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="8DS_-g-TGhlIxt8ZBuBf" version="22.0.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-19T14:27:40.357Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="XhFR7WyZ1xCErbUpjdb1" version="22.0.4" type="github">
   <diagram name="Page-1" id="ldabwUmsxUZ5RDNg7rLi">
-    <mxGraphModel dx="820" dy="2073" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1247" dy="2319" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -429,9 +429,6 @@
         </mxCell>
         <mxCell id="7qLfkdpxVLSUcm8J6ZfC-40" value="N:M" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1394" y="-585" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="NFHjwXLr9v5fyJ9K_e3J-1" value="PRIMARY KEY COMPARTIDA (DOS ATRIBUTS) DE TRABAJAR, PROFESOR, CURSO, IMPARTIR CURSAR, CORRESPONDER. (ELS QUE ESTAN EN NEGRETA)&lt;br&gt;&lt;br&gt;EXEMPLE&lt;br&gt;&lt;pre style=&quot;font-size: 17.3333px; text-align: left; background-color: rgb(174, 215, 168);&quot;&gt;primary key(patente,horallegada)&lt;/pre&gt;" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1860" y="-300" width="490" height="270" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
