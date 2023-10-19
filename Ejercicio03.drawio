@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-19T13:45:12.431Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="Dtc8pjErN-sGH50CjEv4" version="22.0.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-19T14:01:59.488Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="gbsVzo5Gm24ld1DW487a" version="22.0.5" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
-    <mxGraphModel dx="2284" dy="768" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+    <mxGraphModel dx="2497" dy="904" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -264,8 +264,8 @@
         <mxCell id="L8JuvWdBPQvHxdB8sL07-13" value="1,n" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry y="450" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="tmCwzIYjLIbn-xu6IH11-2" value="Localidad(&lt;u&gt;id_localidad&lt;/u&gt;, fk_cod_postal, nombre, poblacion)&lt;br&gt;Provincia(&lt;u&gt;cod_postal&lt;/u&gt;, fk_nombre, nombre, poblacion, superficie)&lt;br&gt;Comunidad Autonoma(&lt;u&gt;nombre&lt;/u&gt;, fk_id_localidad, poblacion, superficie)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="10" y="620" width="280" height="30" as="geometry" />
+        <mxCell id="tmCwzIYjLIbn-xu6IH11-2" value="&lt;p style=&quot;line-height: 180%;&quot;&gt;&lt;/p&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 16px; background-color: initial;&quot;&gt;Localidad (&lt;/span&gt;&lt;span style=&quot;font-size: 16px; background-color: initial;&quot;&gt;&lt;b style=&quot;&quot;&gt;id_localidad&lt;/b&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 16px; background-color: initial;&quot;&gt;, &lt;u&gt;fk_cod_postal&lt;/u&gt;, nombre, poblacion)&lt;/span&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Provincia (&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b style=&quot;&quot;&gt;cod_postal&lt;/b&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;, &lt;u&gt;fk_nombre&lt;/u&gt;, nombre, poblacion, superficie)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;ComunidadAutonoma (&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;nombre&lt;/b&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;, &lt;u&gt;fk_id_localidad&lt;/u&gt;, poblacion, superficie)&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="10" y="620" width="540" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
