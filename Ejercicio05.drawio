@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-17T21:10:22.627Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="ex8lCuRmVBDki8If4Uzt" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-19T14:06:55.563Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="2Ba6c5mTjQCZrjO3RKw_" version="22.0.5" type="github">
   <diagram name="Pàgina-1" id="jwsh2uQWg2K7kbO6ysq4">
-    <mxGraphModel dx="989" dy="545" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1136" dy="623" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -102,7 +102,7 @@
           <mxGeometry x="340" y="290" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="_BHCApm0lJc91tvse7UV-10" value="Almacen" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="490" y="512" width="160" height="146" as="geometry" />
+          <mxGeometry x="490" y="512" width="160" height="116" as="geometry" />
         </mxCell>
         <mxCell id="_BHCApm0lJc91tvse7UV-11" value="" style="shape=table;startSize=0;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=0;align=center;resizeLast=1;strokeColor=none;fillColor=none;collapsible=0;" parent="_BHCApm0lJc91tvse7UV-10" vertex="1">
           <mxGeometry y="26" width="160" height="30" as="geometry" />
@@ -126,9 +126,6 @@
         <mxCell id="_BHCApm0lJc91tvse7UV-16" value="direccion" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" parent="_BHCApm0lJc91tvse7UV-10" vertex="1">
           <mxGeometry y="86" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="_BHCApm0lJc91tvse7UV-17" value="id_estanteria" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" parent="_BHCApm0lJc91tvse7UV-10" vertex="1">
-          <mxGeometry y="116" width="160" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="_BHCApm0lJc91tvse7UV-18" value="Estanteria" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="488" y="220" width="160" height="86" as="geometry" />
         </mxCell>
@@ -151,8 +148,8 @@
         <mxCell id="_BHCApm0lJc91tvse7UV-23" value="cantidad_piezas" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" parent="_BHCApm0lJc91tvse7UV-18" vertex="1">
           <mxGeometry y="56" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="kQ6kPTFAnf9aw-hfmE83-2" value="Pieza(fk_&lt;u style=&quot;&quot;&gt;id_pieza&lt;/u&gt;, descripcion, precio)&lt;br&gt;Compuesto(&lt;u&gt;fk_id_pieza&lt;/u&gt;)&lt;br&gt;Estanteria(&lt;u&gt;fk_id_estanteria&lt;/u&gt;, cantidad_piezas)&lt;br&gt;Guarda(fk_id_pieza, fk_id_estanteria)&lt;br&gt;Almacen(fk_&lt;u style=&quot;&quot;&gt;num_almacen&lt;/u&gt;,&lt;u&gt;fk_id_estanteria&lt;/u&gt;,direccion)&lt;br&gt;Contiene (fk_id_estanteria, fk_num_almacen)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="80" y="484" width="381" height="90" as="geometry" />
+        <mxCell id="kQ6kPTFAnf9aw-hfmE83-2" value="&lt;p style=&quot;line-height: 180%; font-size: 15px;&quot;&gt;Pieza (&lt;b&gt;id_pieza&lt;/b&gt;, descripcion, precio)&lt;br&gt;Compuesto (&lt;u&gt;&lt;b&gt;fk_id_pieza_1&lt;/b&gt;,&lt;/u&gt; &lt;u&gt;&lt;b&gt;fk_id_pieza_2&lt;/b&gt;&lt;/u&gt;)&lt;br&gt;Estanteria (&lt;b&gt;id_estanteria&lt;/b&gt;, cantidad_piezas)&lt;br&gt;Guarda (&lt;u&gt;&lt;b&gt;fk_id_pieza&lt;/b&gt;&lt;/u&gt;, &lt;u&gt;&lt;b&gt;fk_id_estanteria&lt;/b&gt;&lt;/u&gt;)&lt;br&gt;Almacen (&lt;b&gt;num_almacen&lt;/b&gt;,&lt;u&gt;&amp;nbsp;&lt;/u&gt;descripcion, direccion)&lt;br&gt;Contiene (&lt;u&gt;&lt;b&gt;fk_id_estanteria&lt;/b&gt;&lt;/u&gt;, &lt;u&gt;&lt;b&gt;fk_num_almacen&lt;/b&gt;&lt;/u&gt;)&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="80" y="592" width="381" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
