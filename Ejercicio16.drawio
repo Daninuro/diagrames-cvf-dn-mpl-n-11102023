@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-20T14:44:55.543Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="eCHykuXarq2ylbnaut_M" version="22.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-20T14:49:39.890Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="RYUGD8GJGrG3bHqR_KpM" version="22.0.6" type="github">
   <diagram name="Página-1" id="OgZP_NbM3yokd9PwE1lo">
-    <mxGraphModel dx="2485" dy="2059" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1988" dy="1881" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -169,8 +169,8 @@
         <mxCell id="s13MQNfYXoc7W4M39cxg-65" value="N:1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="570" y="305" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="SmEJtxQbj-xSI1ypc0sR-1" value="Usuario (&lt;b&gt;&lt;u&gt;id_usuario_pk&lt;/u&gt;&lt;/b&gt;, nombre, apellidos, email, urlFoto, isCelebridad)&lt;br&gt;Tweet (id_tweet, mensaje, &lt;u&gt;hastag&lt;/u&gt;, caracteres, localizacion, foto)&lt;br&gt;Publica(&lt;u&gt;i&lt;b&gt;d_usuario_pk_fk,&lt;/b&gt;&lt;/u&gt;&lt;b&gt;&amp;nbsp;&lt;/b&gt;&lt;u&gt;&lt;b&gt;id_tweet_pk_fk)&lt;/b&gt;,&lt;/u&gt;&lt;br&gt;TrendingTopic (&lt;u&gt;&lt;b&gt;hastag_pk&lt;/b&gt;&lt;/u&gt;, usuario, caracteres)&lt;br&gt;Sigue(&lt;b&gt;pk_id_usuario&lt;/b&gt;, &lt;b&gt;&lt;u&gt;id_usuario2_pk_fk,&lt;/u&gt;&lt;/b&gt; mensaje_privado&lt;br&gt;Retweet (pk_id_tweet, pk_id_tweet2_fk)&lt;br&gt;Mensaje (pk_id_mensaje, mensaje, fecha)&lt;br&gt;Envia (pk_id_usuario, fk_id_mensaje)&lt;br&gt;Recibe(pk_id_usuario, fk_id_mensaje)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="105" y="570" width="430" height="200" as="geometry" />
+        <mxCell id="SmEJtxQbj-xSI1ypc0sR-1" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Usuario (&lt;b&gt;&lt;u&gt;id_usuario_pk&lt;/u&gt;&lt;/b&gt;, nombre, apellidos, email, urlFoto, isCelebridad)&lt;br&gt;&lt;br&gt;Tweet (&lt;u style=&quot;font-weight: bold;&quot;&gt;id_tweet_pk&lt;/u&gt;,&amp;nbsp;&lt;b&gt;&lt;u&gt;d_usuari_fk,&lt;/u&gt;&lt;/b&gt;&amp;nbsp;mensaje, &lt;u&gt;hastag&lt;/u&gt;, caracteres, localizacion, foto)&lt;br&gt;&lt;br&gt;TrendingTopic (&lt;u&gt;&lt;b&gt;hastag_pk&lt;/b&gt;&lt;/u&gt;, usuario, caracteres)&lt;br&gt;&lt;br&gt;Sigue(&lt;b&gt;&lt;u&gt;pk_id_usuario&lt;/u&gt;&lt;/b&gt;, &lt;b&gt;&lt;u&gt;id_usuario2_pk_fk,&lt;/u&gt;&lt;/b&gt; mensaje_privado&lt;br&gt;&lt;br&gt;Retweet (&lt;b&gt;&lt;u&gt;pk_id_tweet, pk_idusuari_fk&lt;/u&gt;&lt;/b&gt;)&lt;br&gt;&lt;br&gt;Mensaje (&lt;b&gt;&lt;u&gt;pk_id_mensaje&lt;/u&gt;&lt;/b&gt;, mensaje, fecha)&lt;br&gt;&lt;br&gt;Envia (&lt;b&gt;&lt;u&gt;pk_id_usuario_fk, pk_id_mensaje_fk&lt;/u&gt;&lt;/b&gt;)&lt;br&gt;&lt;br&gt;Recibe(pk_id_usuario, fk_id_mensaje)&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="140" y="560" width="540" height="260" as="geometry" />
         </mxCell>
         <mxCell id="mRNTsra2dq2ffMZ_S3t9-2" value="Retweet" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
           <mxGeometry x="260" y="290" width="120" height="60" as="geometry" />
