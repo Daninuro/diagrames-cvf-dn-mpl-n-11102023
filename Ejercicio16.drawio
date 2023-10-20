@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-20T14:53:58.796Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="oYLXcqGljmo3JR2OLLN3" version="22.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-20T15:12:11.006Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="NamI-WvCCp1Z43fQZNlL" version="22.0.6" type="github">
   <diagram name="Página-1" id="OgZP_NbM3yokd9PwE1lo">
-    <mxGraphModel dx="1988" dy="1881" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="749" dy="1919" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -73,7 +73,7 @@
           <mxGeometry y="180" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="s13MQNfYXoc7W4M39cxg-31" value="TrendingTopic" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="450" y="410" width="140" height="120" as="geometry" />
+          <mxGeometry x="450" y="410" width="140" height="90" as="geometry" />
         </mxCell>
         <mxCell id="s13MQNfYXoc7W4M39cxg-32" value="" style="shape=table;startSize=0;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=0;align=center;resizeLast=1;strokeColor=none;fillColor=none;collapsible=0;" parent="s13MQNfYXoc7W4M39cxg-31" vertex="1">
           <mxGeometry y="30" width="140" height="30" as="geometry" />
@@ -91,11 +91,8 @@
             <mxRectangle width="110" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="s13MQNfYXoc7W4M39cxg-36" value="usuario" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="s13MQNfYXoc7W4M39cxg-31" vertex="1">
-          <mxGeometry y="60" width="140" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="s13MQNfYXoc7W4M39cxg-40" value="caracteres" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="s13MQNfYXoc7W4M39cxg-31" vertex="1">
-          <mxGeometry y="90" width="140" height="30" as="geometry" />
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="s13MQNfYXoc7W4M39cxg-43" value="Publica" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
           <mxGeometry x="250" y="180" width="120" height="60" as="geometry" />
@@ -169,7 +166,7 @@
         <mxCell id="s13MQNfYXoc7W4M39cxg-65" value="N:1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="570" y="305" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="SmEJtxQbj-xSI1ypc0sR-1" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Usuario (&lt;b&gt;&lt;u&gt;id_usuario_pk&lt;/u&gt;&lt;/b&gt;, nombre, apellidos, email, urlFoto, isCelebridad)&lt;br&gt;&lt;br&gt;Tweet (&lt;u style=&quot;font-weight: bold;&quot;&gt;id_tweet_pk&lt;/u&gt;, i&lt;b&gt;&lt;u&gt;d_usuari_fk,&lt;/u&gt;&lt;/b&gt;&amp;nbsp;&lt;u&gt;&lt;b&gt;hastag_fk&lt;/b&gt;&lt;/u&gt;, mensaje, caracteres, localizacion, foto)&lt;br&gt;&lt;br&gt;TrendingTopic (&lt;u&gt;&lt;b&gt;hastag_pk&lt;/b&gt;&lt;/u&gt;, usuario, caracteres)&lt;br&gt;&lt;br&gt;Sigue(&lt;b&gt;&lt;u&gt;pk_id_usuario&lt;/u&gt;&lt;/b&gt;, &lt;b&gt;&lt;u&gt;id_usuario2_pk_fk,&lt;/u&gt;&lt;/b&gt; mensaje_privado&lt;br&gt;&lt;br&gt;Retweet (&lt;b&gt;&lt;u&gt;pk_id_tweet, id_usuari_fk&lt;/u&gt;&lt;/b&gt;)&lt;br&gt;&lt;br&gt;Mensaje (&lt;b&gt;&lt;u&gt;pk_id_mensaje&lt;/u&gt;&lt;/b&gt;, mensaje, fecha)&lt;br&gt;&lt;br&gt;Envia (&lt;b&gt;&lt;u&gt;pk_id_usuario_fk, pk_id_mensaje_fk&lt;/u&gt;&lt;/b&gt;)&lt;br&gt;&lt;br&gt;Recibe(&lt;b&gt;&lt;u&gt;pk_id_usuario_fk, pk_id_mensaje_fk&lt;/u&gt;&lt;/b&gt;)&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="SmEJtxQbj-xSI1ypc0sR-1" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Usuario (&lt;b&gt;&lt;u&gt;id_usuario_pk&lt;/u&gt;&lt;/b&gt;, nombre, apellidos, email, urlFoto, isCelebridad)&lt;br&gt;&lt;br&gt;Tweet (&lt;u style=&quot;font-weight: bold;&quot;&gt;id_tweet_pk&lt;/u&gt;, i&lt;b&gt;&lt;u&gt;d_usuari_fk,&lt;/u&gt;&lt;/b&gt;&amp;nbsp;&lt;u&gt;&lt;b&gt;hastag_fk&lt;/b&gt;&lt;/u&gt;, mensaje, caracteres, localizacion, foto)&lt;br&gt;&lt;br&gt;TrendingTopic (&lt;u&gt;&lt;b&gt;hastag_pk&lt;/b&gt;&lt;/u&gt;, usuario, caracteres)&lt;br&gt;&lt;br&gt;Sigue(&lt;b&gt;&lt;u&gt;pk_id_usuario&lt;/u&gt;&lt;/b&gt;, pk_&lt;u style=&quot;font-weight: bold;&quot;&gt;id_usuario2_pk_fk&lt;/u&gt;&lt;u style=&quot;font-weight: bold;&quot;&gt;)&lt;/u&gt;&lt;br&gt;&lt;br&gt;Retweet (&lt;b&gt;&lt;u&gt;pk_id_tweet_fk, pk_id_usuari_fk&lt;/u&gt;&lt;/b&gt;)&lt;br&gt;&lt;br&gt;Mensaje (&lt;b&gt;&lt;u&gt;pk_id_mensaje&lt;/u&gt;&lt;/b&gt;, mensaje, fecha)&lt;br&gt;&lt;br&gt;Envia (&lt;b&gt;&lt;u&gt;pk_id_usuario_fk, pk_id_mensaje_fk&lt;/u&gt;&lt;/b&gt;)&lt;br&gt;&lt;br&gt;Recibe(&lt;b&gt;&lt;u&gt;pk_id_usuario_fk, pk_id_mensaje_fk&lt;/u&gt;&lt;/b&gt;)&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="140" y="560" width="540" height="260" as="geometry" />
         </mxCell>
         <mxCell id="mRNTsra2dq2ffMZ_S3t9-2" value="Retweet" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
