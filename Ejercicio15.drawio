@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-20T13:55:17.335Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="FDka71eCq4iijkaum3Ad" version="22.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-20T14:21:48.569Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="Dd8iVp5eJ_h0w2O5xjUd" version="22.0.6" type="github">
   <diagram name="Página-1" id="oSshZ5akowNSFTycrYSH">
-    <mxGraphModel dx="520" dy="620" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1728" dy="958" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -136,7 +136,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Z6DmoLf8ZXxGUTIYPe1--39" value="&lt;span style=&quot;border-bottom: 1px dotted&quot;&gt;cantidad&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
-          <mxGeometry x="700" y="430" width="100" height="40" as="geometry" />
+          <mxGeometry x="710" y="360" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="oMDPHmmvpc1I7Un1J_bT-1" value="&lt;p style=&quot;line-height: 200%;&quot;&gt;Menu (&lt;b&gt;id_menu&lt;/b&gt;, fecha, num_personas)&lt;br&gt;Plato (&lt;b&gt;id_plato&lt;/b&gt;, nombre, tipo, descripcion, temperatura)&lt;br&gt;Compone (&lt;b&gt;fk_id_menu&lt;/b&gt;, &lt;b&gt;fk_id_plato&lt;/b&gt;)&amp;nbsp;&lt;br&gt;Dia(&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;fecha&lt;/b&gt;,&amp;nbsp;num_personas)&amp;nbsp;&lt;br&gt;Se_Sirve(&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;fk_id_menu&lt;/b&gt;,&amp;nbsp;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;fk_fecha&lt;/b&gt;)&amp;nbsp;&lt;br&gt;Consume(&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;fk_fecha&lt;/b&gt;,&amp;nbsp;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;fk_id_plato,&lt;/b&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp;cantidad, plato_exitoso&lt;/span&gt;)&amp;nbsp;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="239" y="660" width="350" height="150" as="geometry" />
@@ -171,7 +171,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="7KdjN5qjOEXPSJGkGwaG-14" value="&lt;span style=&quot;border-bottom: 1px dotted&quot;&gt;plato_exitoso&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="644" y="490" width="100" height="50" as="geometry" />
+          <mxGeometry x="690" y="455" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="7KdjN5qjOEXPSJGkGwaG-15" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="7KdjN5qjOEXPSJGkGwaG-17" target="7KdjN5qjOEXPSJGkGwaG-14">
           <mxGeometry relative="1" as="geometry">
