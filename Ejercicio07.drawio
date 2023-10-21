@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-21T21:54:28.356Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="Wb_ncthcyTdGn8a5uEaL" version="22.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-21T22:00:55.482Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="I9UciSqLHK-1-5bNzXuH" version="22.0.6" type="github">
   <diagram name="Pàgina-1" id="SuhlOd4oy2-5l4MS3tso">
     <mxGraphModel dx="2547" dy="1881" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -70,7 +70,7 @@
           <mxGeometry y="86" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="dIsOg4A2e7Uvw2vJgA-Q-75" value="Departamento" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="260" y="-844.89" width="160" height="90" as="geometry" />
+          <mxGeometry x="260" y="-844.89" width="160" height="120" as="geometry" />
         </mxCell>
         <mxCell id="dIsOg4A2e7Uvw2vJgA-Q-76" value="" style="shape=table;startSize=4;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=0;align=center;resizeLast=1;strokeColor=none;fillColor=none;collapsible=0;" parent="dIsOg4A2e7Uvw2vJgA-Q-75" vertex="1">
           <mxGeometry y="26" width="160" height="34" as="geometry" />
@@ -90,6 +90,9 @@
         </mxCell>
         <mxCell id="dIsOg4A2e7Uvw2vJgA-Q-80" value="nombre_departamento" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" parent="dIsOg4A2e7Uvw2vJgA-Q-75" vertex="1">
           <mxGeometry y="60" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9OvP7ZOyrdMXcPd-KJxd-2" value="coordinador" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="dIsOg4A2e7Uvw2vJgA-Q-75">
+          <mxGeometry y="90" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="dfgesfgbSkPz70xL1TR2-1" value="Nomina" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="200" y="-390" width="160" height="116" as="geometry" />
